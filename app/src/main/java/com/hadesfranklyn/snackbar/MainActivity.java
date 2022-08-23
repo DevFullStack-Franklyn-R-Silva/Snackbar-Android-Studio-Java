@@ -33,9 +33,12 @@ public class MainActivity extends AppCompatActivity {
                 ).setAction("Confirmar", new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-//                                buttonAbrir.setText("Botão abrir alterado!");
+                        //buttonAbrir.setText("Botão abrir alterado!");
                     }
                 });
+                //Troca a cor da mensagem confirmar
+                snackbar.setActionTextColor(getResources().getColor(R.color.teal_200));
+
                 snackbar.show();
             }
         });
